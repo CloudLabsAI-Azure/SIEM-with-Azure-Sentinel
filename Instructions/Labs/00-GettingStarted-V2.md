@@ -1,6 +1,6 @@
-# Getting Started with Your SIEM with Azure Sentinel Workshop
+# Getting Started with Your SIEM with Microsoft Sentinel Workshop
  
-Welcome to your SIEM with Azure Sentinel workshop! We've prepared a seamless environment for you to explore and learn about Log Analytics Workspace, Microsoft Sentinel and Threat Hunting. Let's begin by making the most of this experience:
+Welcome to your SIEM with Microsoft Sentinel workshop! We've prepared a seamless environment for you to explore and learn about Log Analytics Workspace, Microsoft Sentinel and Threat Hunting. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
