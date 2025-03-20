@@ -41,7 +41,7 @@ These components work together to provide a comprehensive security management so
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
-![](./media/1.png)
+![](../media/20032025(1).png)
 
 ### Virtual Machine & Lab Guide
  
@@ -51,59 +51,51 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![](./media/2.png)
+![](../media/20032025(3).png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![](./media/3.png)
+![](../media/20032025(4).png)
  
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![](./media/4.png)
+![](../media/20032025(5).png)
  
-## Lab Duration Extension
-
-1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
-
-    ![](./media/5.png)
-
-    >**Note:** You will get the **Hourglass** icon when 15 minutes are remaining in the lab.
-
-2. Click **OK** to extend your lab duration.
+## Lab Guide Zoom In/Zoom Out
  
-   ![](./media/6.png)
+1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
+   ![](../media/zoominoutt.png)
 
 ## Let's Get Started with Azure Portal
  
-1. On your virtual machine, click on the Azure Portal icon as shown below:
+1. On your virtual machine, click on the **Azure Portal** icon as shown below:
  
-   ![](./media/7.png)
+   ![](../media/20032025(6).png)
 
 2. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**.
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-     ![](./media/8.png)
+     ![](../media/20032025(7).png)
  
 3. Now enter the following password and click on **Sign in**.
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![](./media/9.png)
+     ![](../media/20032025(8).png)
  
 1. If you see the pop-up Action Required, click Ask Later.
-
-   ![](media/asklater.png)
 
    >**NOTE:** Do not enable MFA, select **Ask Later**.
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
+
+   ![](../media/20032025(9).png)
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
@@ -121,11 +113,9 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](../media/next.png "Resource groups")
 
-> [!IMPORTANT]
+   > [!IMPORTANT]
 
-*For a smoother experience during the hands-on lab, it's important to review both the instructions and the accompanying notes thoroughly. This will help you navigate through the tasks with ease and confidence.*
-
-This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Azure AI Search, and Form Recognizer, to create intelligent systems that enhance productivity and deliver personalized experiences.
+   *For a smoother experience during the hands-on lab, it's important to review both the instructions and the accompanying notes thoroughly. This will help you navigate through the tasks with ease and confidence.*
 
 ## Support Contact
 
