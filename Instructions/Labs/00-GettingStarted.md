@@ -37,50 +37,77 @@ This architectural diagram illustrates the process of setting up and utilizing A
 
 These components work together to provide a comprehensive security management solution, enabling effective monitoring, analysis, and threat detection within a cloud environment
 
-# Getting Started with Lab
+## Accessing Your Lab Environment
+ 
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+ 
+![](./media/1.png)
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the lab guide bottom area to switch to different exercises in the lab guide.
+### Virtual Machine & Lab Guide
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## Exploring Your Lab Resources
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
+ 
+![](./media/2.png)
+ 
+## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+ 
+![](./media/3.png)
+ 
+## Managing Your Virtual Machine
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+ 
+![](./media/4.png)
+ 
+## Lab Duration Extension
 
-   ![](../media/getting-started.png "Lab Environment")
-   
-1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your email address provided during registration.
+1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
 
-   ![split window](../media/getting-started.png "Lab Environment")
+    ![](./media/5.png)
 
-1. You can also view the lab guide in a separate and full window by selecting **Split Window** from the lower right corner.
+    >**Note:** You will get the **Hourglass** icon when 15 minutes are remaining in the lab.
 
-   ![](../media/split-window.png "Lab Environment")
+2. Click **OK** to extend your lab duration.
+ 
+   ![](./media/6.png)
 
-1. Actions on virtual machines such as **Start**, **Stop**, and **Restart** can be performed from the **Resources** tab.
+3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
 
-   ![start and stop resources](../media/start-stop.png "Lab Environment")
+## Let's Get Started with Azure Portal
+ 
+1. On your virtual machine, click on the Azure Portal icon as shown below:
+ 
+   ![](./media/7.png)
 
-## Login to Azure Portal
-1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser, which is created on the desktop.
+2. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**.
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+ 
+     ![](./media/8.png)
+ 
+3. Now enter the following password and click on **Sign in**.
+ 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+     ![](./media/9.png)
+ 
+1. If you see the pop-up Action Required, click Ask Later.
 
-   ![](../media/azureportal_icon.png "Lab Environment")
-   
-1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following email/username and then click on **Next**.
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-   
-     ![](../media/image7.png "Enter Email")
+   ![](media/asklater.png)
+
+   >**NOTE:** Do not enable MFA, select **Ask Later**.
      
-1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
-   
-     ![](../media/image8.png "Enter Password")
-     
-1. If you see the pop-up **Action Required**, click **Ask Later**.
-
-   ![](../media/asklater.png "Action required window")
-     
-   > If you are getting popup **save password**, then select **Save & Turn on** option.
-       
-1. If you see the pop-up **Stay Signed in?**, click **No**.
+1. If you see the pop-up **Stay Signed in?**, select **No**.
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour.
 
 1. Now you will see the Azure Portal Dashboard, Click on **Resource groups** from the Navigate panel to see the resource groups.
 
@@ -94,9 +121,9 @@ These components work together to provide a comprehensive security management so
 
    ![](../media/next.png "Resource groups")
 
-
 > [!IMPORTANT]
-*For a smoother experience during the hands-on lab, it's important to thoroughly review both the instructions and the accompanying notes. This will help you navigate through the tasks with ease and confidence.*
+
+*For a smoother experience during the hands-on lab, it's important to review both the instructions and the accompanying notes thoroughly. This will help you navigate through the tasks with ease and confidence.*
 
 This hands-on lab will guide you in using Azure’s advanced tools, including OpenAI LLM, Azure AI Search, and Form Recognizer, to create intelligent systems that enhance productivity and deliver personalized experiences.
 
@@ -107,9 +134,9 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 Learner Support Contacts:
 
 - Email Support: labs-support@spektrasystems.com
+
 - Live Chat Support: https://cloudlabs.ai/labs-support
   
 Now, click on Next from the lower right corner to move on to the next page.
 
 ## Happy Learning!!
-
